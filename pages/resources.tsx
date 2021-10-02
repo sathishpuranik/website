@@ -12,7 +12,7 @@ const resources = [
   {
     title: "Communities",
     description: "Spaces run by the community for Fractint Art enthusiasts to share news and build together:",
-    list: communityList,
+    list: communityList
   }
 ];
 
