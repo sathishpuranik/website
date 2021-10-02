@@ -12,13 +12,13 @@ const resources = [
   {
     title: "Communities",
     description: "Spaces run by the community for Fractint Art enthusiasts to share news and build together:",
-    list: communityList
+    list: communityList,
   },
   {
     title: "Listed on",
     description: "Below are the places we have listed our project",
-    list: communityList
-  }
+    list: communityList,
+  },
 ];
 
 export default function Resources(): ReactElement {
