@@ -10,7 +10,7 @@
   }
 
   p {
-    color: #8e8e8e;
+    color: white;
     font-size: 22px;
     margin: 0px;
   }
@@ -42,7 +42,7 @@
 
   > span {
     display: block;
-    color: #8e8e8e;
+    color: white;
     font-size: 18px;
     padding: 10px 0px;
   }
@@ -60,7 +60,7 @@
 }
 
 .home__bag_attributes {
-  background-color: black;
+  background-color: #84dcc6;
   width: 400px;
   height: 400px;
   position: relative;
@@ -100,7 +100,7 @@
 
 @media screen and (max-width: 600px) {
   .home__bag_attributes {
-    background-color: black;
+    background-color:#84dcc6;
     width: 300px;
     height: 300px;
     position: relative;
@@ -113,4 +113,29 @@
       }
     }
   }
+}
+
+.column {
+  float: left;
+  width: 66.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.width {
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  float: left;
+  width: 30%;
+  height: 300px;
+  border: solid;
 }

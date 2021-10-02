@@ -22,7 +22,6 @@ export default function Layout({
       {/* Page content */}
       <div className={styles.content}>{children}</div>
       {/* Bottom footer */}
-      <Footer />
     </div>
   );
 }
@@ -35,32 +34,32 @@ function Head(): ReactElement {
   return (
     <HTMLHead>
       {/* Primary Meta Tags */}
-      <title>Loot</title>
-      <meta name="title" content="Loot" />
+      <title>Fractint</title>
+      <meta name="title" content="Fractint Art" />
       <meta
         name="description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="FractintArt collections is a most innovative NFT Project. Arts are created in the a form of mathematical algorithmic by calculating fractal objects and representing the calculation results as still digital images and stored on chain."
       />
 
       {/* OG + Faceook */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.lootproject.com/" />
-      <meta property="og:title" content="Loot" />
+      <meta property="og:url" content="https://www.farctintart.com/" />
+      <meta property="og:title" content="Fractint" />
       <meta
         property="og:description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="FractintArt collections is a most innovative NFT Project. Arts are created in the a form of mathematical algorithmic by calculating fractal objects and representing the calculation results as still digital images and stored on chain."
       />
-      <meta property="og:image" content="https://lootproject.com/meta.png" />
+      <meta property="og:image" content="https://www.farctintart.com/meta.png" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.lootproject.com/" />
-      <meta property="twitter:title" content="Loot" />
+      <meta property="twitter:url" content="https://www.farctintart.com/" />
+      <meta property="twitter:title" content="Fractint" />
       <meta
         property="twitter:description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="FractintArt collections is a most innovative NFT Project. Arts are created in the a form of mathematical algorithmic by calculating fractal objects and representing the calculation results as still digital images and stored on chain."
       />
-      <meta property="twitter:image" content="https://lootproject.com/meta.png" />
+      <meta property="twitter:image" content="https://www.farctintart.com/meta.png" />
 
       {/* Font */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -96,7 +95,7 @@ function Header() {
       {/* Main logo */}
       <div className={styles.header__logo}>
         <Link href="/">
-          <a>Loot</a>
+          <a>Fractint</a>
         </Link>
       </div>
 
@@ -124,28 +123,6 @@ function Header() {
           })}
         </ul>
       </div>
-    </div>
-  );
-}
-
-/**
- * Footer component
- * @returns {ReactElement} Footer
- */
-function Footer(): ReactElement {
-  return (
-    <div className={styles.footer}>
-      <p>
-        This website is{" "}
-        <a
-          href="https://github.com/lootproject/website"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          open-source
-        </a>
-        .
-      </p>
     </div>
   );
 }
