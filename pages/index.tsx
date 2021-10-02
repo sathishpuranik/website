@@ -10,14 +10,16 @@ import type { ReactElement } from "react";
 export default function Home(): ReactElement {
   // Quicklinks to render
   const quicklinks: Record<string, string>[] = [
-    { name: "OpenSea", url: "https://opensea.io/collection/fractint-art-collection" },
+    { name: "OpenSea", 
+      url: "https://opensea.io/collection/fractint-art-collection" 
+    },
     {
       name: "Twitter",
-      url: "https://twitter.com/FractintArt",
+      url: "https://twitter.com/FractintArt"
     },
     {
       name: "Discord",
-      url: "https://discord.gg/kYNsVm4fAh",
+      url: "https://discord.gg/kYNsVm4fAh"
     }
   ];
 
