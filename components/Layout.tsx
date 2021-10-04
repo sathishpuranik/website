@@ -3,6 +3,7 @@ import Link from "next/link"; // Routing
 import { useRouter } from "next/router"; // Routing
 import { default as HTMLHead } from "next/head"; // Meta
 import styles from "@styles/components/Layout.module.scss"; // Styles
+import classnames from 'classnames';
 
 // Types
 import type { ReactElement } from "react";
@@ -86,6 +87,7 @@ function Header() {
   const { pathname } = useRouter();
   // All links
   const links = [
+    { name: "RoadMap", path: "/roadmap" },
     { name: "FAQ", path: "/faq" },
     { name: "Resources", path: "/resources" },
   ];
@@ -126,3 +128,44 @@ function Header() {
     </div>
   );
 }
+
+/**
+ * Footer component
+ * @returns {ReactElement} Footer
+ */
+function Footer(): ReactElement {
+  return (
+    <div className={styles.footerdark}>
+        <footer>
+            <div className={styles.container}>
+                <div className={styles.row}>
+                    <div className={classnames(styles.colsm6, styles.colmd3, styles.colmd3, styles.item)}>
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div className={classnames(styles.colsm6, styles.colmd3, styles.item)}>
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div className={classnames(styles.colsm6, styles.item, styles.text)}>
+                        <h3>Company Name</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div className={classnames(styles.col, styles.item, styles.social)}><a href="#"><i className={classnames(styles.icon, styles.ionsocialfacebook)}></i></a><a href="#"><i className={classnames(styles.icon, styles.ionsocialtwitter)}></i></a><a href="#"><i className={classnames(styles.icon, styles.ionsocialsnapchat)}></i></a><a href="#"><i className={classnames(styles.icon, styles.ionsocialinstagram)}></i></a></div>
+                </div>
+                <p className={styles.copyright}>Company Name © 2022</p>
+            </div>
+        </footer>
+    </div>
+
+  );
+}
+

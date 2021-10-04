@@ -2,6 +2,7 @@
   max-width: 800px;
   margin: 0px auto;
   padding: 15px 20px;
+  color: rgb(240, 74, 9);
 
   p {
     color:white;
@@ -15,8 +16,8 @@
         margin: 15px 0px;
 
         a {
-          color: white;
-
+          color: rgb(125, 219, 47);
+          border-bottom: 1px solid white;
           &:hover {
             text-decoration: underline;
           }

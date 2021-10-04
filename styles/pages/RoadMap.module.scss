@@ -1,0 +1,36 @@
+// Page wrapper
+.faq {
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 15px 20px;
+  color: rgb(240, 74, 9);
+}
+
+// FAQ Item
+.faq__item {
+  h3 {
+    font-size: 22px;
+    border-bottom: 1px solid white;
+    margin: 20px 0px 0px 0px;
+    display: inline-block;
+    color: rgb(107, 218, 103);
+  }
+
+  p {
+    color: white;
+    font-size: 20px;
+    margin: 20px 0px;
+
+    a {
+      color: rgb(230, 216, 216);
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    &:nth-of-type(1) {
+      margin-top: 10px;
+    }
+  }
+}

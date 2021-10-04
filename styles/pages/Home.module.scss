@@ -1,11 +1,12 @@
 .home__cta {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0px auto;
   padding: 15px 20px;
   text-align: center;
 
   h1 {
     font-size: 5rem;
+    color: rgb(230, 120, 120);
     margin: 15px 0px 0px 0px;
   }
 
@@ -13,6 +14,7 @@
     color: white;
     font-size: 22px;
     margin: 0px;
+    text-align: center;
   }
 
   ul {
@@ -44,7 +46,7 @@
     display: block;
     color: white;
     font-size: 18px;
-    padding: 10px 0px;
+    padding: 20px 0px;
   }
 }
 
@@ -60,7 +62,7 @@
 }
 
 .home__bag_attributes {
-  background-color: #84dcc6;
+  background-color:#f1eb92;
   width: 400px;
   height: 400px;
   position: relative;
@@ -100,7 +102,7 @@
 
 @media screen and (max-width: 600px) {
   .home__bag_attributes {
-    background-color:#84dcc6;
+    background-color:#f1eb92;
     width: 300px;
     height: 300px;
     position: relative;

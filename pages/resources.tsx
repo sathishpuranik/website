@@ -1,6 +1,6 @@
 // Imports
 import {
-  communityList
+  communityList, listedOnList
 } from "@utils/lists"; // Lists
 import Layout from "@components/Layout"; // Layout wrapper
 import styles from "@styles/pages/Resources.module.scss"; // Page styles
@@ -17,7 +17,7 @@ const resources = [
   {
     title: "Listed on",
     description: "Below are the places we have listed our project",
-    list: communityList,
+    list: listedOnList,
   },
 ];
 

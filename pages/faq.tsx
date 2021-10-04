@@ -74,7 +74,7 @@ export default function FAQ(): ReactElement {
               href="https://en.wikipedia.org/wiki/Fractal_art"
               target="_blank"
               rel="noopener noreferrer"
-            >
+            >{" "}
               Fractal Arts
             </a>
           </p>

@@ -2,7 +2,6 @@
 import Link from "next/link"; // Local routing
 import Layout from "@components/Layout"; // Layout wrapper
 import styles from "@styles/pages/Home.module.scss"; // Styles
-import logo from "../public/meta.png";
 
 // Types
 import type { ReactElement } from "react";
@@ -54,6 +53,12 @@ export default function Home(): ReactElement {
 
           {/* CTA Description */}
           <p>FractintArt collections is a most innovative NFT Project. <br /> Arts are created in the a form of mathematical algorithmic by calculating fractal objects and representing the calculation results as still digital images. <br />
+
+           FractintArt art developed from the mid-1980s onwards. It is a genre of computer art and digital art which are part of new media art.
+<br />
+
+There will be multiple airdrops with only 10000 unique designs created from this curated program.
+
           </p>
         </div>
 
@@ -74,18 +79,19 @@ export default function Home(): ReactElement {
     </a>
   </div>
   <div className={styles.box}>
-  <a target="_blank" href="/genericImage 16.jpg">
-    <img src="/genericImage 16.jpg" alt="Mountains" className={styles.width}/>
+  <a target="_blank" href="/genericImage 21.jpg">
+    <img src="/genericImage 21.jpg" alt="Mountains" className={styles.width}/>
     </a>
   </div>
+
   <div className={styles.box}>
   <a target="_blank" href="/genericImage 33.jpg">
     <img src="/genericImage 33.jpg" alt="Mountains" className={styles.width}/>
     </a>
   </div>
   <div className={styles.box}>
-  <a target="_blank" href="/genericImage 21.jpg">
-    <img src="/genericImage 21.jpg" alt="Mountains" className={styles.width}/>
+  <a target="_blank" href="/genericImage 16.gif">
+    <img src="/genericImage 16.gif" alt="Mountains" className={styles.width}/>
     </a>
   </div>
   <div className={styles.box}>
@@ -94,8 +100,8 @@ export default function Home(): ReactElement {
     </a>
   </div>
   <div className={styles.box}>
-  <a target="_blank" href="/genericImage 26.jpg">
-    <img src="/genericImage 26.jpg" alt="Mountains" className={styles.width}/>
+  <a target="_blank" href="/genericImage 26.gif">
+    <img src="/genericImage 26.gif" alt="Mountains" className={styles.width}/>
     </a>
   </div>
   <div className={styles.box}>
@@ -115,6 +121,7 @@ export default function Home(): ReactElement {
 
           
         </div>
+        
       </div>
     </Layout>
   );
