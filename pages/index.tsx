@@ -29,6 +29,9 @@ export default function Home(): ReactElement {
         <div className={styles.home__cta}>
           {/* CTA title */}
           <h1>Fractint Art Collection</h1>
+          <h2>We are sold at OpenSea for the royalty program here <Link href="https://opensea.io/collection/fractint-art-collection">
+                      <a>FractintArt</a>
+                    </Link></h2>
 
           {/* Quicklinks */}
           <ul>
