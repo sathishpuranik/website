@@ -12,7 +12,14 @@ export default function RoadMap(): ReactElement {
     <Layout>
       <div className={styles.faq}>
         <h1>RoadMap for the Fractint Art</h1>
-        <h2>First Airdrop with 1000 unique designs will be sold at OpenSea.</h2>
+        <h2>First Airdrop with 800 unique designs will be sold at OpenSea execlusivly for royalty program.</h2>
+
+        <div className={styles.faq__item}>
+          <h3>Royalty program</h3>
+          <p>
+          Every first holder of the art will get the 5% incentives/royalties from the secondary sales upto 3 times.
+          </p>
+        </div>
 
         {/* What is loot ? */}
         <div className={styles.faq__item}>

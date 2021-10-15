@@ -36,7 +36,7 @@ export default function FAQ(): ReactElement {
         <div className={styles.faq__item}>
           <h3>How much does A FractintArt NFT cost?</h3>
           <p>
-             A FractintArt costs 0.05 Ξ. You are allowed to buy as many as you want in opensea. There is no time limit to mint.
+             A FractintArt costs 0.04 Ξ. You are allowed to buy as many as you want in opensea. There is no time limit to mint.
           </p>
         </div>
 
